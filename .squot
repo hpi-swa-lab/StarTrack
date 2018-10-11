@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'packages\/StarTrack-Client.package' : #SquotCypressCodeSerializer,
+	'packages\/StarTrack-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/StarTrack-Server.package' : #SquotCypressCodeSerializer
+}

@@ -1,0 +1,15 @@
+{
+	"category" : "StarTrack-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"events",
+		"eventsMutex" ],
+	"name" : "STTracker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

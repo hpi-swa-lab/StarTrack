@@ -1,0 +1,4 @@
+constants
+logDataFieldName
+
+	^ 'logData' asSymbol

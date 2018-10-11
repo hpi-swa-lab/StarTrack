@@ -1,0 +1,14 @@
+{
+	"category" : "StarTrack-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "STServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
