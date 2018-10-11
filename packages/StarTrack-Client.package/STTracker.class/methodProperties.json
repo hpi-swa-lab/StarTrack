@@ -4,6 +4,7 @@
 		"ensureScheduledTask" : "pre 10/10/2018 13:28",
 		"eventsUploadThreshold" : "pre 10/10/2018 10:25",
 		"filterEvent:for:" : "pre 10/11/2018 15:29",
+		"ignoredCategoriesWithMorphClasses" : "pre 10/11/2018 16:20",
 		"initialize" : "pre 10/11/2018 15:45",
 		"instance" : "pre 10/9/2018 16:04",
 		"shutDown:" : "pre 10/11/2018 15:45",
@@ -11,6 +12,7 @@
 		"startUp:" : "pre 10/11/2018 15:46",
 		"trackEvent:" : "pre 10/9/2018 16:30",
 		"trackEvent:in:" : "pre 10/9/2018 16:17",
+		"trackOpeningOfMorph:" : "pre 10/11/2018 16:00",
 		"uploadInterval" : "pre 10/10/2018 13:28" },
 	"instance" : {
 		"addEvent:" : "pre 10/10/2018 10:52",

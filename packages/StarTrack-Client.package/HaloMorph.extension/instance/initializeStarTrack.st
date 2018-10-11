@@ -1,4 +1,4 @@
 *StarTrack-Client
 initializeStarTrack
 
-	self addMouseCaptureFilter: STTracker 
+	self addMouseBubbleFilter: STTracker 
