@@ -1,4 +1,6 @@
 running
 startUp: isResuming
 
-	self ensureScheduledTask 
+	self ensureScheduledTask.
+	
+	isResuming ifTrue: [self instance trackEvent: #started].
