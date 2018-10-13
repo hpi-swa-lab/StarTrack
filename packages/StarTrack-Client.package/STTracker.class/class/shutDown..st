@@ -1,4 +1,8 @@
-running
+system shutdown
 shutDown: quitting
 
-	self instance trackEvent: #quitting
+	quitting ifTrue: [
+		self instance
+			trackEvent: #quitting;
+			tryToUpload]
+	

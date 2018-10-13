@@ -1,4 +1,4 @@
-running
+system startup
 startUp: isResuming
 
 	self ensureScheduledTask.
