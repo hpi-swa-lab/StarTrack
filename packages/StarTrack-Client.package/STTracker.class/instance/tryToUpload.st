@@ -1,16 +1,24 @@
 uploading
 tryToUpload
 
-	| response |
-	eventsMutex critical: [
-		self events size > self eventsUploadThreshold ifTrue: [
-			[response := WebClient httpPost: self starTrackEndpoint content: self uploadPayload type: 'text/json']
+	| response candidates payload |
+	
+	self events size > self eventsUploadThreshold ifTrue: [
+		[self events size > 0] whileTrue: [
+			eventsMutex critical: [
+			candidates := self events first: (self uploadBatchSize min: self events size)].
+		
+			payload := self createUploadPayloadFor: candidates.
+			
+			[response := WebClient httpPost: self starTrackEndpoint content: payload type: 'text/json']
 				on: Error
 				do: [:e | 
-					Transcript showln: e messageText.
+					Transcript showln: e description.
 					^ self ].
 				
 			response isSuccess 
-				ifTrue: [self resetEvents]
-				ifFalse: [Transcript showln: response content]]]
+				ifTrue: [self removeEvents: candidates]
+				ifFalse: [Transcript showln: response content. 
+						"Try later again"
+						^ self]]]
 		

@@ -1,6 +1,6 @@
 uploading
-uploadPayload
+createUploadPayloadFor: aCollectionOfEvents
 
 	^ Json render: (Dictionary newFrom: {
 		STTrackedIncident participantIdFieldName -> self userIdentifier.
-		STTrackedIncident logDataFieldName -> self events asArray. })
+		STTrackedIncident logDataFieldName -> aCollectionOfEvents. })
