@@ -1,0 +1,15 @@
+{
+	"category" : "StarTrack-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CounterMutex",
+		"CounterState" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "STCounter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
