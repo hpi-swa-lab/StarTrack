@@ -12,13 +12,9 @@ tryToUpload
 			
 			[response := WebClient httpPost: self starTrackEndpoint content: payload type: 'text/json']
 				on: Error
-				do: [:e | 
-					Transcript showln: e description.
-					^ self ].
+				do: [:e | ^ self ].
 				
 			response isSuccess 
 				ifTrue: [self removeEvents: candidates]
-				ifFalse: [Transcript showln: response content. 
-						"Try later again"
-						^ self]]]
+				ifFalse: [^ self]]]
 		
