@@ -1,4 +1,4 @@
 constants
 eventsUploadThreshold
 
-	^ 20
+	^ 50

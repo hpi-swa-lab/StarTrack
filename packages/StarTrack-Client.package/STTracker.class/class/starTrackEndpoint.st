@@ -1,4 +1,4 @@
 constants
 starTrackEndpoint
 
-	^ 'http://localhost:8989/tracking'
+	^ 'http://www.hpi.uni-potsdam.de/hirschfeld/ccr/tracking'
