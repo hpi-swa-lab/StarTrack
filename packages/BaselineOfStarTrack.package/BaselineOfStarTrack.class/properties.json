@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfStarTrack",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfStarTrack",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
