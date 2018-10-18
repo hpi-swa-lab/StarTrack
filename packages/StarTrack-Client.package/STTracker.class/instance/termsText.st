@@ -6,10 +6,10 @@ a study about programmer behavior.
 
 In detail this means, that by using this image you accept the
 following terms:
- - I accept that anonymized information about my tool usage is
+ - I accept that pseudonymized information about my tool usage is
    collected
- - I accept that the data may be de-anonymized solely for the 
-   purpose of recruitement for follow-up studies
+ - I accept that the data may be associated to my author initials 
+   solely for the purpose of recruitement for follow-up studies
  - I acknowledge that I am aware of the preventive measures
    taken to prevent any interference between study and teaching
    activity
@@ -21,7 +21,7 @@ following terms:
 
 We ensure that the study does not interfere with the course work
 through the following steps:
-  - All recorded data is anonymized
+  - All recorded data is pseudonymized
   - Data records are only analyzed after grades for the SWA course
     have been published
 
