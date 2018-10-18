@@ -7,7 +7,7 @@ ensureAcceptanceOfTerms
 	termsAccepted ifFalse: [
 		answer := UIManager default
 			confirm: self termsText 
-			title: 'Terms of usage'
+			title: 'Terms of Use'
 			trueChoice: 'Yes, I accept the terms and want to participate'
 			falseChoice: 'No, I do not want to participate'.
 		(answer ifNil: [false])
