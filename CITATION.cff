@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Rein"
+  given-names: "Patrick"
+  orcid: "https://orcid.org/0000-0001-9454-8381"
+- family-names: "Hirschfeld"
+  given-names: "Robert"
+  orcid: "https://orcid.org/0000-0002-4249-6003"
+title: "StarTrack"
+version: 0.8.0
+date-released: 2023-07-01
+url: "https://github.com/hpi-swa-lab/learning-liveness"
