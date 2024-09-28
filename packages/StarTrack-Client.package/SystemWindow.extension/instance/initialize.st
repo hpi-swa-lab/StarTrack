@@ -4,21 +4,22 @@ initialize
 
 	super initialize.
 
-	self layoutPolicy: ProportionalLayout new.
-
-	self wantsPaneSplitters: true.
-	self layoutInset: ProportionalSplitterMorph gripThickness.
-	self cellInset: ProportionalSplitterMorph gripThickness.
-
-	self initializeLabelArea.				
-	self addCornerGrips.
-	self setDefaultParameters.
-
 	allowReframeHandles := true.
 	isCollapsed := false.
 	paneMorphs := Array new.
 	mustNotClose := false.
 	updatablePanes := Array new.
+
+	self layoutPolicy: ProportionalLayout new.
+
+	self wantsPaneSplitters: true.
+	self wantsGrips: true.
+	self layoutInset: ProportionalSplitterMorph gripThickness.
+	self cellGap: ProportionalSplitterMorph gripThickness.
+
+	self initializeLabelArea.				
+	self addGrips.
+	self setDefaultParameters.
 
 	self initializeKeyboardShortcuts.
 	self initializeStarTrack.

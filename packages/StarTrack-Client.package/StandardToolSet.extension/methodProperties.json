@@ -1,5 +1,10 @@
 {
 	"class" : {
-		"handleError:" : "pre 10/1/2019 16:36" },
+		"basicInspect:" : "sp 8/1/2023 10:38",
+		"explore:" : "sp 8/1/2023 10:38",
+		"explore:label:" : "sp 8/1/2023 10:38",
+		"handleError:" : "sp 8/1/2023 10:38",
+		"inspect:" : "sp 8/1/2023 10:38",
+		"inspect:label:" : "sp 8/1/2023 10:38" },
 	"instance" : {
 		 } }

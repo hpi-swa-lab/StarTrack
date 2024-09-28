@@ -1,0 +1,14 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorMessage" ],
+	"name" : "STDebuggerOpened",
+	"pools" : [
+		 ],
+	"super" : "STToolOpened",
+	"type" : "normal" }

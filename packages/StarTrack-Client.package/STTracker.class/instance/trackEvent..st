@@ -3,4 +3,5 @@ trackEvent: eventSymbol
 
 	self addEvent: (STTrackedIncident new
 		eventName: eventSymbol asSymbol;
-		occuredAt: DateAndTime now)
+		occuredAt: DateAndTime now;
+		yourself)

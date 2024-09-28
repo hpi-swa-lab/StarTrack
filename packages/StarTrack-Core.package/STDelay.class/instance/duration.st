@@ -1,0 +1,4 @@
+accessing
+duration "s"
+
+	^ duration

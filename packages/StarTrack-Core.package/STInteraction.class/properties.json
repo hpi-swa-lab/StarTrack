@@ -1,0 +1,15 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inToolInstance",
+		"inToolClass" ],
+	"name" : "STInteraction",
+	"pools" : [
+		 ],
+	"super" : "STTrackedIncident",
+	"type" : "normal" }

@@ -7,8 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"eventName",
-		"trackedClassName",
-		"trackedObjectName",
 		"occuredAt" ],
 	"name" : "STTrackedIncident",
 	"pools" : [

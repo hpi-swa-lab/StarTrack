@@ -1,0 +1,15 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"toolName",
+		"shownObject" ],
+	"name" : "STToolOpened",
+	"pools" : [
+		 ],
+	"super" : "STTrackedIncident",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"duration" ],
+	"name" : "STDelay",
+	"pools" : [
+		 ],
+	"super" : "STTrackedIncident",
+	"type" : "normal" }

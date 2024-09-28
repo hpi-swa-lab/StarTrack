@@ -1,16 +1,22 @@
 {
 	"class" : {
 		"logDataFieldName" : "pre 10/11/2018 15:33",
+		"newFromJsonObject:" : "sp 8/2/2023 17:31",
 		"participantIdFieldName" : "pre 10/11/2018 15:33" },
 	"instance" : {
+		"=" : "sp 8/24/2023 13:46",
+		"createJsonDictionary" : "sp 8/1/2023 08:11",
 		"eventName" : "pre 10/9/2018 16:22",
 		"eventName:" : "pre 10/9/2018 16:22",
-		"initialize" : "pre 10/9/2018 16:25",
-		"jsonWriteOn:" : "pre 10/11/2018 15:07",
+		"hash" : "sp 8/24/2023 13:46",
+		"initialize" : "sp 8/1/2023 08:11",
+		"initializeFrom:" : "sp 8/2/2023 17:38",
+		"isClick" : "sp 8/3/2023 07:56",
+		"isDelay" : "sp 8/3/2023 12:56",
+		"isToolInteraction" : "sp 8/3/2023 10:23",
+		"isToolOpened" : "sp 8/2/2023 17:47",
+		"jsonWriteOn:" : "sp 8/1/2023 07:40",
+		"objectIdentifierFor:" : "sp 8/1/2023 08:02",
 		"occuredAt" : "pre 10/9/2018 16:24",
 		"occuredAt:" : "pre 10/9/2018 16:24",
-		"printOn:" : "pre 10/11/2018 16:03",
-		"trackedClassName" : "pre 10/9/2018 16:24",
-		"trackedClassName:" : "pre 10/9/2018 16:24",
-		"trackedObjectName" : "pre 10/11/2018 15:07",
-		"trackedObjectName:" : "pre 10/11/2018 15:07" } }
+		"printOn:" : "sp 8/1/2023 08:12" } }

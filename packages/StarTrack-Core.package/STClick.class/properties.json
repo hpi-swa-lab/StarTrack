@@ -1,0 +1,14 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "STClick",
+	"pools" : [
+		 ],
+	"super" : "STInteraction",
+	"type" : "normal" }

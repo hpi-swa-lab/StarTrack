@@ -1,0 +1,14 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodSource" ],
+	"name" : "STCompilationWithTranscript",
+	"pools" : [
+		 ],
+	"super" : "STTrackedIncident",
+	"type" : "normal" }

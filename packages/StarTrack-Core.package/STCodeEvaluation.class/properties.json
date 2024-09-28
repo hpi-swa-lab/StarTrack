@@ -1,0 +1,15 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expression",
+		"kindOfEvaluation" ],
+	"name" : "STCodeEvaluation",
+	"pools" : [
+		 ],
+	"super" : "STInteraction",
+	"type" : "normal" }

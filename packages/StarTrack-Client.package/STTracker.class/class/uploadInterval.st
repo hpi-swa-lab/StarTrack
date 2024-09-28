@@ -1,4 +1,4 @@
 constants
 uploadInterval
 
-	^ 5 minutes
+	^ 30 seconds

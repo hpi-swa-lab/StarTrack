@@ -1,0 +1,15 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morphInstance",
+		"morphClass" ],
+	"name" : "STMorphOpened",
+	"pools" : [
+		 ],
+	"super" : "STTrackedIncident",
+	"type" : "normal" }

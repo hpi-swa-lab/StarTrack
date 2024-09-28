@@ -2,4 +2,7 @@ tracking - morphic
 trackOpeningOfMorph: aMorph
 
 	^ (self ignoredCategoriesWithMorphClasses includes: aMorph class category)
-		ifFalse: [self trackEvent: #openInWorld in: aMorph] 
+		ifFalse: [self trackEventObject: (STMorphOpened new
+			morphInstance: aMorph;
+			morphClass: aMorph class;
+			yourself)] 

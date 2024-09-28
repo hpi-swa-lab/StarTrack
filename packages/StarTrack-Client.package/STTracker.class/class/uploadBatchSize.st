@@ -1,4 +1,4 @@
 constants
 uploadBatchSize
 
-	^ 20
+	^ 500

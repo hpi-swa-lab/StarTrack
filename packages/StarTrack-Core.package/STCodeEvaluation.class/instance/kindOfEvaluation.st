@@ -1,0 +1,4 @@
+accessing
+kindOfEvaluation
+
+	^ kindOfEvaluation

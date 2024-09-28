@@ -1,0 +1,14 @@
+{
+	"category" : "StarTrack-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key" ],
+	"name" : "STKeyboardInteraction",
+	"pools" : [
+		 ],
+	"super" : "STInteraction",
+	"type" : "normal" }

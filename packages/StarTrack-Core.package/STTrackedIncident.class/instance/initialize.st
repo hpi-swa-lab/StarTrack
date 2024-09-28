@@ -1,6 +1,4 @@
 initialize-release
 initialize
 
-	self 
-		eventName: #none;
-		trackedClassName: #none
+	self eventName: #none.
