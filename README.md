@@ -21,4 +21,6 @@ Metacello new
 ## Entry Points
 
 1. Start a server: Execute `STServer startServer`
-2. Explore the upload process: Browse `STTracker class>>#ensureScheduledTask`
+2. Change whether events are stored locally or remote: Browse `STTracker class>>#isStoringEventsLocally`
+3. Change upload parameters: Browse `constants` category of `STTracker class`
+4. Explore the upload process: Browse `STTracker class>>#ensureScheduledTask`
