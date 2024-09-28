@@ -1,0 +1,4 @@
+constants
+isStoringEventsLocally
+
+	^ false
